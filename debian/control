@@ -1,0 +1,12 @@
+Source: ros-foxy-ros-system-fingerprint
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-rcl-interfaces, ros-foxy-rclpy, ros-foxy-ros2cli, ros-foxy-ros2node, ros-foxy-ros2param, ros-foxy-ros2topic, ros-foxy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-ros-system-fingerprint
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-git, ros-foxy-rcl-interfaces, ros-foxy-rclpy, ros-foxy-ros2cli, ros-foxy-ros2node, ros-foxy-ros2param, ros-foxy-ros2topic, ros-foxy-ros-workspace
+Description: The ros_system_fingerprint package
