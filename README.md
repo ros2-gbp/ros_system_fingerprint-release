@@ -1,3 +1,26 @@
+## ros_system_fingerprint (foxy) - 0.4.0-1
+
+The packages in the `ros_system_fingerprint` repository were released into the `foxy` distro by running `/usr/bin/bloom-release ros_system_fingerprint -r foxy` on `Mon, 29 Aug 2022 17:20:00 -0000`
+
+The `ros_system_fingerprint` package was released.
+
+Version of package(s) in repository `ros_system_fingerprint`:
+
+- upstream repository: https://github.com/MetroRobots/ros_system_fingerprint.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## ros_system_fingerprint (noetic) - 0.3.0-1
 
 The packages in the `ros_system_fingerprint` repository were released into the `noetic` distro by running `/usr/bin/bloom-release ros_system_fingerprint -r noetic` on `Wed, 24 Aug 2022 17:24:06 -0000`
