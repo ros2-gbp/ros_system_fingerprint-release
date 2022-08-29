@@ -1,12 +1,11 @@
-#!/usr/bin/python3
-
 import argparse
 import pathlib
 import yaml
 
 from ros_system_fingerprint import modules
 
-if __name__ == '__main__':
+
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', '--print', action='store_true')
     parser.add_argument('output_path', type=pathlib.Path,
@@ -25,5 +24,6 @@ if __name__ == '__main__':
     if args.print:
         print(contents)
 
+    print(f'saving fingerprint to {args.output_path}')
     with open(args.output_path, 'w') as f:
         f.write(contents)
