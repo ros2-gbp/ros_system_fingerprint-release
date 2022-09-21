@@ -1,3 +1,26 @@
+## system_fingerprint (humble) - 0.5.0-1
+
+The packages in the `system_fingerprint` repository were released into the `humble` distro by running `/usr/bin/bloom-release system_fingerprint -r humble` on `Wed, 21 Sep 2022 17:54:10 -0000`
+
+The `system_fingerprint` package was released.
+
+Version of package(s) in repository `system_fingerprint`:
+
+- upstream repository: https://github.com/MetroRobots/ros_system_fingerprint.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## system_fingerprint (rolling) - 0.5.0-1
 
 The packages in the `system_fingerprint` repository were released into the `rolling` distro by running `/usr/bin/bloom-release system_fingerprint -r rolling` on `Wed, 21 Sep 2022 17:51:00 -0000`
