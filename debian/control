@@ -1,0 +1,12 @@
+Source: ros-humble-system-fingerprint
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-rcl-interfaces, ros-humble-rclpy, ros-humble-ros2cli, ros-humble-ros2node, ros-humble-ros2param, ros-humble-ros2topic, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-system-fingerprint
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-git, ros-humble-rcl-interfaces, ros-humble-rclpy, ros-humble-ros2cli, ros-humble-ros2node, ros-humble-ros2param, ros-humble-ros2topic, ros-humble-ros-workspace
+Description: The system_fingerprint package
