@@ -1,4 +1,3 @@
-import os
 import pathlib
 import git
 
@@ -14,13 +13,12 @@ def _get_parent_dirs(cur_dir):
 
 
 def get_workspace_root(cur_dir=pathlib.Path('.')):
-    prefix_path = os.environ.get('COLCON_PREFIX_PATH')
-    if prefix_path:
-        first = prefix_path.split(':')[0]
-        install_dir = pathlib.Path(first)
-        return 'colcon', install_dir.parent
-
-    return 'colcon', None
+    for folder in _get_parent_dirs(cur_dir):
+        if (folder / '.catkin_workspace').exists():
+            return 'catkin_make', folder
+        elif (folder / '.catkin_tools').exists():
+            return 'catkin_tools', folder
+    return None, None
 
 
 def get_git_repos(root):
