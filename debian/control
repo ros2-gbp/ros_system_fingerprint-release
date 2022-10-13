@@ -1,0 +1,12 @@
+Source: ros-rolling-system-fingerprint
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-rcl-interfaces, ros-rolling-rclpy, ros-rolling-ros2action, ros-rolling-ros2cli, ros-rolling-ros2node, ros-rolling-ros2param, ros-rolling-ros2topic, ros-rolling-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-system-fingerprint
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-git, ros-rolling-rcl-interfaces, ros-rolling-rclpy, ros-rolling-ros2action, ros-rolling-ros2cli, ros-rolling-ros2node, ros-rolling-ros2param, ros-rolling-ros2topic, ros-rolling-ros-workspace
+Description: The system_fingerprint package
