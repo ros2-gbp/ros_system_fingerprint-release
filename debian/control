@@ -1,0 +1,12 @@
+Source: ros-iron-system-fingerprint
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-rcl-interfaces, ros-iron-rclpy, ros-iron-ros2action, ros-iron-ros2cli, ros-iron-ros2node, ros-iron-ros2param, ros-iron-ros2topic, ros-iron-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-system-fingerprint
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-git, ros-iron-rcl-interfaces, ros-iron-rclpy, ros-iron-ros2action, ros-iron-ros2cli, ros-iron-ros2node, ros-iron-ros2param, ros-iron-ros2topic, ros-iron-ros-workspace
+Description: The system_fingerprint package
