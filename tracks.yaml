@@ -160,4 +160,5 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/MetroRobots/ros_system_fingerprint.git
-    version: :{auto}
+    version: 0.7.0
+    version_saved: :{auto}
