@@ -1,0 +1,12 @@
+Source: ros-jazzy-system-fingerprint
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-rcl-interfaces, ros-jazzy-rclpy, ros-jazzy-ros2action, ros-jazzy-ros2cli, ros-jazzy-ros2node, ros-jazzy-ros2param, ros-jazzy-ros2topic, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-system-fingerprint
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-git, ros-jazzy-rcl-interfaces, ros-jazzy-rclpy, ros-jazzy-ros2action, ros-jazzy-ros2cli, ros-jazzy-ros2node, ros-jazzy-ros2param, ros-jazzy-ros2topic, ros-jazzy-ros-workspace
+Description: The system_fingerprint package
