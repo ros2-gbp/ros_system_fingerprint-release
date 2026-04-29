@@ -1,0 +1,12 @@
+Source: ros-lyrical-system-fingerprint
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-rcl-interfaces, ros-lyrical-rclpy, ros-lyrical-ros2action, ros-lyrical-ros2cli, ros-lyrical-ros2node, ros-lyrical-ros2param, ros-lyrical-ros2topic, ros-lyrical-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: https://index.ros.org/p/system_fingerprint/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-system-fingerprint
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-git, ros-lyrical-rcl-interfaces, ros-lyrical-rclpy, ros-lyrical-ros2action, ros-lyrical-ros2cli, ros-lyrical-ros2node, ros-lyrical-ros2param, ros-lyrical-ros2topic, ros-lyrical-ros-workspace
+Description: The system_fingerprint package
